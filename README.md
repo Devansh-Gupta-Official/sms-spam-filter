@@ -15,22 +15,22 @@ The dataset (emails.csv) consists of email text and labels indicating whether an
 
 ## Contents
 **1. Importing Libraries and Dataset**
-The notebook begins by importing necessary Python libraries such as Pandas, NumPy, Matplotlib, Seaborn, and reading the dataset into a Pandas DataFrame.
+In this section of the notebook, the necessary Python libraries such as Pandas, NumPy, Matplotlib, Seaborn, and Scikit-learn are imported. Additionally, it loads the dataset into a Pandas DataFrame for further analysis.
 
 **2. Visualizing the Dataset**
-Visual representation of the dataset is provided, showing the distribution of spam and non-spam emails using count plots.
+Visual representations like count plots are utilized to provide insights into the dataset's composition. This includes showcasing the distribution of spam and non-spam emails, aiding in understanding the dataset's characteristics.
 
 **3. Data Preprocessing**
-Demonstrates the process of converting text data into numerical format using Count Vectorizer.
+This section focuses on preparing the text data for model training. It demonstrates the process of converting raw text data into a numerical format suitable for machine learning algorithms using techniques like Count Vectorization.
 
 **4. Training the Model**
-Utilizes the Multinomial Naive Bayes classifier to train the model on the dataset.
+Utilizes the Multinomial Naive Bayes classifier to train the model on the preprocessed dataset. This step involves fitting the model on the training data to learn patterns and relationships between the features and the target (spam or non-spam).
 
 **5. Evaluating the Model**
-Evaluates the model's performance on a test set using metrics like precision, recall, and F1-score. Confusion matrices and heatmap visualizations are also included.
+The model's performance is evaluated using a test set that wasn't used during training. Metrics such as precision, recall, F1-score, and accuracy are calculated. Confusion matrices and heatmap visualizations are generated to provide a deeper understanding of the model's performance.
 
 **6. Creating Testing and Training Dataset**
-Demonstrates the process of splitting the dataset into training and testing subsets for model evaluation.
+Demonstrates the process of splitting the dataset into training and testing subsets. This step ensures a fair evaluation of the model's performance by using separate data for training and testing.
 
 ## Usage
 ### Requirements

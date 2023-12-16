@@ -39,4 +39,9 @@ Demonstrates the process of splitting the dataset into training and testing subs
 3. Open spam_filter.ipynb using Jupyter Notebook.
 4. Run the cells in sequential order.
 
+## Files Included
+- spam_filter.ipynb: Jupyter Notebook containing the entire code and analysis.
+- emails.csv: Dataset file containing email text and spam labels.
 
+## Results
+The model achieves an accuracy of approximately **99%** on the test set, demonstrating robust performance in classifying spam and non-spam emails.

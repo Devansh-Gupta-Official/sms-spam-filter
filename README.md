@@ -2,6 +2,11 @@
 
 This repository contains an Python Notebook (spam_filter.ipynb) that demonstrates the process of email spam classification using machine learning techniques.
 
+## Problem Statement
+- The SMS Spam Collection is a set of SMS tagged messages that have been collected for SMS Spam research. It contains one set of SMS messages in English of 5,574 messages, tagged acording being ham (legitimate) or spam.
+
+- The files contain one message per line. Each line is composed by two columns: v1 contains the label (ham or spam) and v2 contains the raw text.
+
 ## Overview
 The dataset (emails.csv) consists of email text and labels indicating whether an email is spam or not.
 ### Dataset Description

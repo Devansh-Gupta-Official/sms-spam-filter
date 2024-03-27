@@ -20,6 +20,10 @@ In this section of the notebook, the necessary Python libraries such as Pandas, 
 **2. Visualizing the Dataset**
 Visual representations like count plots are utilized to provide insights into the dataset's composition. This includes showcasing the distribution of spam and non-spam emails, aiding in understanding the dataset's characteristics.
 
+![image](https://github.com/Devansh-Gupta-Official/sms-spam-filter/assets/100591612/9108edfc-01a7-494c-9092-27565ece4e33)
+
+
+
 **3. Data Preprocessing**
 This section focuses on preparing the text data for model training. It demonstrates the process of converting raw text data into a numerical format suitable for machine learning algorithms using techniques like Count Vectorization.
 
@@ -28,6 +32,13 @@ Utilizes the Multinomial Naive Bayes classifier to train the model on the prepro
 
 **5. Evaluating the Model**
 The model's performance is evaluated using a test set that wasn't used during training. Metrics such as precision, recall, F1-score, and accuracy are calculated. Confusion matrices and heatmap visualizations are generated to provide a deeper understanding of the model's performance.
+
+![image](https://github.com/Devansh-Gupta-Official/sms-spam-filter/assets/100591612/9da1ae4d-904b-4bc7-b514-3f316152f06d)
+
+![image](https://github.com/Devansh-Gupta-Official/sms-spam-filter/assets/100591612/315db647-fa7d-4d46-84e0-3a103c1a5322)
+
+![image](https://github.com/Devansh-Gupta-Official/sms-spam-filter/assets/100591612/83c0a7b4-64c7-4a82-9a29-c5d42a290f2f)
+
 
 **6. Creating Testing and Training Dataset**
 Demonstrates the process of splitting the dataset into training and testing subsets. This step ensures a fair evaluation of the model's performance by using separate data for training and testing.
